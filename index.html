@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You love Dice</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <h1 class="pb-3 fw-bold">Choose your number</h1>
+            <!-- player section -->
+            <div class="playerSide col-md-6 ">
+                <div class="row">
+                    <div class="col-6 text-end">
+                        <label for="userNum">I choose</label>
+                    </div>
+                    <div class="col-6 text-start">
+                        <select class="form-control-sm" id="userNum">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- notify section -->
+                <div class="notifySide pt-4">
+
+                </div>
+
+                <div class="button pb-4">
+                    <button type="submit" class="btn" id="stopDiceBtn">STOP DICE</button>
+                    <button type="submit" class="btn d-none" id="playAgainBtn">PLAY AGAIN</button>
+                </div>
+            </div>
+
+            <!-- dice section -->
+            <div class="diceSide col-md-6">
+                <div class="dice_image">
+                    <img src="./img/1.png" alt="diceFace" id="diceFace" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- code here -->
+
+    <script src="./js/style.js"></script>
+</body>
+
+</html>

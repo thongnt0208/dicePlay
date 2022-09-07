@@ -1,0 +1,19 @@
+.container .row h1{
+    color: #3DDA84;
+}
+
+.notifySide h3{
+    border-radius: 100px;
+    margin-bottom: 1.5rem;
+}
+
+.button button{
+    background-color: #3dda84;
+    color: #ecfbf3;
+    border-radius: 100px;
+}
+
+.button button:hover{
+    background-color: #3dda84a5;
+    color: #ecfbf3;
+}
